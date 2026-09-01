@@ -1,0 +1,36 @@
+{
+  "name": "swiftpay-backend",
+  "version": "1.0.0",
+  "description": "SwiftPay - Fast, Secure Payment Transfer Backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["payment", "transfer", "banking", "fintech"],
+  "author": "SwiftPay Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.14",
+    "otp-generator": "^4.0.1",
+    "socket.io": "^4.7.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "mongodb-memory-server": "^9.1.6"
+  }
+}
